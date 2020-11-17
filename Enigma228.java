@@ -7,7 +7,7 @@ Scanner read = new Scanner(System.in);
  String b = "" ;
  int kek; 
  int rer = 967 ;
-     
+  
  System.out.print("Зашифровать код (1) Разшифровать код (2)(В этой же строке напиши свою строку!): ");
   kek = read.nextInt();
   System.out.println(kek);
@@ -15,7 +15,6 @@ Scanner read = new Scanner(System.in);
     if (kek == 1){
 
 System.out.print("Исходное сообщение: " );
-
 String msg;
     
     msg = read.nextLine();
